@@ -8,7 +8,6 @@ public class Calculator {
         double b1 = calculateBarn1(requestObject.getIncome(), requestObject.getBarn1Typ());
         double b2 = calculateBarn2(requestObject.getIncome(), requestObject.getBarn2Typ());
         double b3 = calculateBarn3(requestObject.getIncome(), requestObject.getBarn3Typ());
-
         //TODO: Proper calculation
 
         return new BarnResponseObject(b1, b2, b3);
