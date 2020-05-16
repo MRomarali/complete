@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class CalculateController {
 
-	@CrossOrigin(origins = { "*" })
-	@GetMapping("/calculate")
-	public BarnRequestObject calculate() {
-		return new BarnRequestObject(123, 1, 2, 3);
-	}
+	//@CrossOrigin(origins = { "*" })
+	//@GetMapping("/calculate")
+	//public BarnRequestObject calculate() {
+	//	return new BarnRequestObject(123, 1, 2, 3);
+	//}
 
 	@CrossOrigin(origins = { "*" })
 	@PostMapping("/calculate-sum")
